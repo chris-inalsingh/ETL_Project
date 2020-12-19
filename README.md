@@ -14,9 +14,9 @@
 
 ### Extract
 
-1.	Use WebScraping to extract data from Government Stat Sites using BeautifulSoup
+1.	Use WebScraping to extract data from worldometer site using BeautifulSoup
 	
-2.	Use an API call to pull the data from StatsCAN
+2.	Use an JSON file to pull data from ourworldindata site
 	
 
 ### Transform
@@ -38,9 +38,12 @@
 
 
 3. The final tables or collections that will be used in the production database.
-	a. Canada Infection Rate
-	b. Canada Recovery Rates
+	a. Worldwide Stringency Ratings
+	b. US Excess Deaths
 	c. Unemployment Rates
+	d. Country Code
+	e. Influenza Deaths
+	f. Worldwide Infection Rates
 	
 
 SQL will be used to create the database
@@ -51,7 +54,7 @@ SQL will be used to create the database
  
 
 
-###Roles 
+### Roles 
 
 
 * Extract
