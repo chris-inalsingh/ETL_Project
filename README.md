@@ -22,28 +22,28 @@
 ### Transform
 
 1. The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
-
-	a. Cleaning - Eliminate blank entries, Countries with sparse data will be excluded
-	b. Joining - Country and ISO Codes fields will be used to joing the tables
-	c. Filtering - TBD to maintain credible buckets
-	d. Aggregating - By Country, By Month
+	1. Cleaning - Eliminate blank entries, Countries with sparse data will be excluded
+	1. Joining - Country and ISO Codes fields will be used to joing the tables
+	1. Filtering - TBD to maintain credible buckets
+	1. Aggregating - By Country, By Month
 
 
 
 ### Load
 
 2. The type of final production database to load the data into (relational or non-relational).
-	a. Create a relational database to store the tables and collections in PostGres/MongoDB
+	1. Create a relational database to store the tables and collections in PostGres/MongoDB
 
 
 
 3. The final tables or collections that will be used in the production database.
-	a. Worldwide Stringency Ratings
-	b. US Excess Deaths
-	c. Unemployment Rates
-	d. Country Code
-	e. Influenza Deaths
-	f. Worldwide Infection Rates
+	
+	1. Worldwide Stringency Ratings
+	1. US Excess Deaths
+	1. Unemployment Rates
+	1. Country Code
+	1. Influenza Deaths
+	1. Worldwide Infection Rates
 	
 
 SQL will be used to create the database
