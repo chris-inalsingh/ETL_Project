@@ -24,7 +24,7 @@
 1. The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
 	1. Cleaning - Eliminate blank entries, Countries with sparse data will be excluded
 	1. Joining - Country and ISO Codes fields will be used to joing the tables
-	1. Filtering - TBD to maintain credible buckets
+	1. Filtering - By Date, By State for US view
 	1. Aggregating - By Country, By Month
 
 
@@ -32,7 +32,7 @@
 ### Load
 
 2. The type of final production database to load the data into (relational or non-relational).
-	1. Create a relational database to store the tables and collections in PostGres/MongoDB
+	1. Create a non-relational database to store the tables and collections in MongoDB
 
 
 
@@ -46,11 +46,11 @@
 	1. Worldwide Infection Rates
 	
 
-SQL will be used to create the database
+PyMongo will be used to create the database
 
 #### Report
 1. ERD Diagram
-2. SQL structure
+2. MongoDB structure
  
 
 
